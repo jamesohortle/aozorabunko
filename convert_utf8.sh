@@ -5,6 +5,9 @@ convert(){
     iconv -f $enc -t UTF-8 $1 > $1.utf8
     rm $1
     mv $1.utf8 $1
+    git add .
+    git commit -m "Convert $1"
+    git push origin master 
 }
 
 find . -name "*.html" -type f |
