@@ -1,3 +1,8 @@
 Aozorabunko - 
 
 http://en.wikipedia.org/wiki/Aozora_Bunko
+
+
+# README
+
+This fork of the Aozora Bunko 青空文庫 repository re-encodes all HTML files in UTF-8. Charset and encoding flags are also updated to match.
